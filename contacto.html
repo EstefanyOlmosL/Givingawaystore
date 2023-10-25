@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <link rel="stylesheet" href="contacto.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+
+<!-- funcion para mostrar alerta-->
+
+<title>Ventana de Alerta</title>
+<script>
+    function mostrarAlerta(mensaje) {
+        alert(mensaje);
+    }
+</script>
+
+</head>
+
+
+<body>
+
+    <header>
+      
+        
+        <img src="/My project-1.png" alt="Logo de la empresa" id="logo">
+        <nav>
+            <ul>
+                <li><a href="Index.html">Inicio</a></li>
+                <li><a href="/catalogo.html">Catalogo</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="/login.html">Ingresar</a></li>
+           
+            </ul>
+        </nav>
+
+  </header>
+ 
+ <main>
+
+    <form>             
+            <label for="nombreapellido">Nombre y Apellido</label>
+            <input class="inputdatos" type="text" id="nombreapellido" required>
+    
+            <label for="correoelectronico">Correo Electrónico</label>
+             <input type="email" class="inputdatos"  id="correoelectronico" required
+             placeholder="juanperez@email.com">
+    
+            <label for="telefono">Telefono</label>
+            <input type="tel" class="inputdatos"  id="telefono" required
+            placeholder="XXX-XXX-XXXX">
+             
+            <label for="mensaje"> Mensaje</label>
+            <textarea cols="70" rows="10" id="mensaje" class="datos"required
+            placeholder="Gracias por ponerse en contacto con nosotros, ingrese su mensaje ¡Le responderemos en un plazo de 2 horas!"></textarea>
+
+            
+    <fieldset>
+        <legend> ¿Como le gustaría que nos se contactemos con usted?</legend>
+        <label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
+    
+        <label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono">Teléfono</label>
+    
+        <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp" checked>WhatsApp</label>
+    </fieldset>
+            
+    <fieldset>
+            <legend>¿A que municipio de la provincia Monte Plata pertecene ?</legend>
+            <select class="select">
+                <option>Monte Plata</option>
+                <option>Sabana Grande de Boya</option>
+                <option>Yamasa</option>
+                <option>Peralvillo</option>
+            </select>
+    </fieldset>
+
+        <label class="checkbox"><input type="checkbox" checked>Le gustaría recibir novedades de la Barbería Alura?</label> 
+        <input  onclick="mostrarAlerta('¡Página en construccion! Esta función aún no está disponible')" class="enviar" type="submit" value="Enviar formulario">
+       
+    </form>
+ </main>
+<H1> Horario de nuesta tienda Fisica</H1>
+ <table>
+    <thead>
+        <tr>
+            <th>Día</th>
+            <th>Horario</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Lunes a Viernes</td>
+            <td>9:00 Am - 6:00 Pm</td>
+        </tr>
+        <tr>
+            <td>Sabados</td>
+            <td>9:00 Am - 3:00 Pm</td>
+        </tr>
+        <tr>
+            <td>Domingos</td>
+            <td>Cerrado</td>
+        </tr>
+    </tbody>
+</table>
+    <footer>
+      
+        &copy; 2023 todos los derechos reservados by Estefany Olmos
+    </footer>
+</body>
+</html>

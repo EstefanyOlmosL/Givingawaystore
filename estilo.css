@@ -1,0 +1,133 @@
+/* Reset de estilos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  background: linear-gradient(hsl(0, 58%, 95%) 50%,hwb(0 95% 4%) 50%)
+}
+
+/* Estilos del encabezado */
+
+
+header {
+  background-color: #f08080 ;
+  color: #fff;
+  text-align: right;
+  padding: 0px 0;
+  margin-top: -15px;
+  height: 85px;
+  
+}
+
+nav ul {
+  list-style: none;
+  margin-top: -45px;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+ 
+  
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fafafa;
+  font-size:20px;
+ 
+}
+
+nav a:hover {
+  color:  #000000;
+  text-decoration: underline;
+}
+#logo:hover{
+  transform: rotate(380deg) scale(1,1);
+  cursor:pointer;
+}
+
+#logo {
+  width: 100px;
+  height: 100px;
+  margin: 258 px;
+  margin-top: 10px;
+  display: flex;
+}
+.Gif {
+  display: flex; /* Establece un contenedor flexible */
+  align-items: center; /* Centra verticalmente el contenido */
+  
+}
+
+.izquierda {
+  flex: 1; /* Ocupa el espacio restante disponible */
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto; /* Cambia el valor del margen inferior y utiliza 'auto' para centrar verticalmente */
+  background-color: linear-gradient(hsl(0, 58%, 95%) 50%, hwb(0 95% 4%) 50%);
+  text-align: center;
+  margin-right: 250px;
+}
+
+
+.tituloPrincipal{
+  text-align: center;
+  font-size: 25px;
+  margin:  0 1em;
+  clear:left;
+  line-height:2.5;
+  
+  
+}
+
+ .Nosotros{
+  margin: 0 0 1em;
+  font-size: 20px;
+ 
+}
+p{
+  margin: 0 0 1em;
+  font-size: 20px;
+
+}
+
+.mision{
+  line-height: 2.5;
+}
+.vision{
+  line-height: 2.5;
+}
+.Valores{
+  margin: 0 0 1em;
+  font-size: 20px;
+  line-height:2.5;
+}
+
+ 
+.mapa {
+  margin-top: 20px; /* Cambia el valor del margen superior */
+}
+
+.titulo-mapa {
+  line-height: 2.8;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: left;
+}
+
+
+/* Estilos del pie de página */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}

@@ -1,0 +1,116 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    background: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #f08080;
+    color: #fff;
+    text-align: right;
+    padding: 0px 0;
+    margin-top: -15px;
+    height: 85px;
+}
+
+nav ul {
+    list-style: none;
+    margin-top: -300px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+nav a:hover {
+    color: #000000;
+    text-decoration: underline;
+}
+
+#logo:hover {
+    transform: rotate(380deg) scale(1, 1);
+    cursor: pointer;
+}
+
+#logo {
+    width: 100px;
+    height: 100px;
+    margin: 258px;
+    margin-top: 10px;
+    display: flex;
+    margin-left: 10px;
+}
+
+
+
+/* Estilos para el formulario y el GIF */
+main {
+    display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center; /* Centra los elementos verticalmente */
+    height: 100vh; 
+}
+h2{
+    line-height: 2.5;
+    font-size: 25px;
+}
+
+.form-container {
+    flex: 1; /* Aumenta el tamaño del formulario */
+    padding: 20px; /* Añade espacio alrededor del formulario */
+}
+
+.login-form {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #fff;
+    border: 1px solid #ccc; /* Añade un borde al formulario */
+    border-radius: 10px; /* Añade esquinas redondeadas al formulario */
+    max-width: 600px; /* Aumenta el ancho del formulario */
+}
+/* Añade espacio vertical entre elementos dentro del formulario */
+.login-form label,
+.login-form input {
+    display: block; /* Coloca las etiquetas debajo de los campos de entrada */
+    margin-bottom: 20px;
+    font-size: 30px; /* Aumenta el tamaño de fuente de las etiquetas y los campos de entrada */
+}
+
+.login-form button {
+    display: block; /* Coloca el botón debajo de los campos de entrada */
+    margin: 20px auto; /* Centra el botón horizontalmente y agrega espacio arriba y abajo */
+    font-size: 20px; /* Aumenta el tamaño de fuente del botón */
+    background-color: #f08080;
+}
+
+
+
+
+
+
+/* ... Otros estilos ... */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  

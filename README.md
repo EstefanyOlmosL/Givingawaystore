@@ -1,2 +1,1 @@
-# Givingawaystore
-proyecto de clase
+# GivingWeb
